@@ -1,16 +1,12 @@
-def main():
-    try:
-        while True:
-            greeting = input("Password: ")
-            if greeting == "123":
-                name = input("Hello! What is your name? ")
-                print("Welcome to Wavelab, " + name + "!")
-                break
-            else:
-                print("Wrong password, try again.")
-    except KeyboardInterrupt:
-        print("\nGoodbye.")
+x = input("Password: ")
+if (x == "123"):
+    print("Access Granted!")
+    name = input("What is your name? ")
+    print("Welcome to Wavelab, " + name + "!")
 
-
-if __name__ == "__main__":
-    main()
+while (x != "123"):
+    x = input("Access Denied!\nTry Again ")
+    if (x == "123"):
+        print("Access Granted!")
+        name = input("What is your name? ")
+        print("Welcome to Wavelab, " + name + "!")
