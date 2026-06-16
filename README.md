@@ -1,4 +1,11 @@
 # Wavelab
-This project will help students grasp a stronger understanding 
+Wavelab is a
 
-# Important
+## Goals
+
+
+## Technologies
+
+
+## Status
+
